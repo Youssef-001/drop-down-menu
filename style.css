@@ -17,7 +17,6 @@
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
-  background-color: white;
   color: black;
   cursor: pointer;
 }
@@ -52,23 +51,26 @@ body {
 .div-two,
 .div-three {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 5px;
   cursor: pointer;
+  background-color: #64748b33;
 }
-
-/* .div-one:hover {
-  background-color: #94a3b8;
-}
-.div-two:hover {
-  background-color: #94a3b8;
-}
-.div-three:hover {
-  background-color: #94a3b8;
-} */
 
 .options {
   /* background-color: #333; */
   padding: 5px;
+}
+
+.div-one:hover,
+.div-two:hover,
+.div-three:hover {
+  background-color: #64748b33;
+}
+
+.drop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
